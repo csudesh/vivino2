@@ -1,0 +1,49 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand img {
+  max-width: 120px;
+  margin-top: -6px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 25px !important;
+  padding: 7px 18px 10px 18px !important;
+  /* width: 250px !important; */
+}
+
+.navLinkImg {
+  max-width: 20px;
+}
+
+#navContainer {
+  box-shadow: 0 4px 2px -2px rgb(226, 226, 226);
+}
+
+#navBottomContainer {
+  padding: 8px 0 20px 0;
+}
+
+#navIconDiv {
+  display: inline-block;
+  width: 25px;
+  margin-left: 15px;
+}
+
+#navIconDiv img {
+  max-width: 20px;
+  margin-top: -4px;
+}
+
+#navIconContent {
+  display: inline-block;
+  width: auto;
+}
+
+#navIconContent p {
+  font-size: 17px;
+  color: #1d1d1d;
+  margin-bottom: 0;
+}

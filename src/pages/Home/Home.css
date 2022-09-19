@@ -1,0 +1,432 @@
+#firstSectionSubHeading {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.filterBtn {
+  width: 65px !important;
+  border: 1px solid #a31323;
+  border-radius: 30px;
+  padding: 0 20px 3px 20px;
+  color: #000;
+  margin: 20px 0 0 10px !important;
+  text-align: center;
+}
+
+#filterText {
+  font-family: "GraphikWeb", "Verdana", sans-serif;
+  font-size: 13px;
+  color: #111;
+  margin-top: 8px;
+}
+
+.carouselCard {
+  background-color: #fff;
+  /* padding: 16px; */
+  border-radius: 16px;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #efefef;
+  width: 90%;
+  margin: 5px auto 5px auto;
+  box-shadow: 0 8px 8px 0 rgba(181, 181, 181, 0.2);
+}
+
+#caropuselPaddingDiv {
+  padding: 16px;
+}
+
+.carouselImg {
+  display: inline-block !important;
+  width: 90px;
+  max-width: 90px;
+  height: 300px;
+  vertical-align: middle;
+  margin-top: -30px;
+}
+
+.ratingDiv {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.ratingNum {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #1e1e1e;
+}
+
+.ratingCount {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.itemPrice {
+  padding: 8px 38px;
+  font-size: 18px;
+  min-height: 40px;
+  line-height: 24px;
+  font-weight: 600;
+  border-radius: 80px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0fb681;
+}
+
+.itemPrice:hover {
+  color: #fff;
+  background-color: #0ba474;
+}
+
+.cardBottomTxt1 {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.cardBottomTxt2 {
+  margin-bottom: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.userProfileImg {
+  max-width: 25px;
+  max-height: 25px;
+  margin-top: 2px;
+}
+
+.userName {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.item {
+  padding-top: 18px;
+}
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  margin-top: -50px;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  margin-top: -50px;
+}
+
+.owl-nav {
+  font-size: 35px;
+  color: #c6c6c6;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  color: #575757 !important;
+  background-color: #fff !important;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(79, 79, 79, 0.1),
+    -3px 5px 10px 2px rgba(178, 177, 177, 0.3);
+}
+
+.carouselCard:hover .carouselImg {
+  transform: scale(1.09);
+  transition: all 0.25s ease-in-out;
+}
+
+.carouselCard:hover {
+  box-shadow: 0 0 0 1px rgba(79, 79, 79, 0.1),
+    -3px 5px 10px 2px rgba(158, 158, 158, 0.3);
+}
+
+.owl-prev i,
+.owl-next i {
+  transform: scale(2, 5);
+  color: #ccc;
+}
+
+.sectionTwoItemDiv {
+  background-color: #fff;
+  border-radius: 16px;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #efefef;
+  width: 100%;
+  margin: 30px auto 5px auto;
+  box-shadow: 0 0 0 1px rgba(81, 81, 81, 0.1),
+    0 8px 8px 0 rgba(234, 224, 218, 0.3);
+}
+
+.sectionTwobannertxt {
+  min-height: 56px;
+  padding: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#bannerContainer1 {
+  width: 98%;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 0 0 0 1px rgba(81, 81, 81, 0.1),
+    0 8px 8px 0 rgba(211, 211, 211, 0.3);
+  padding: 0;
+  margin-top: 60px;
+}
+
+#bannerImgDiv {
+  display: inline-block;
+  width: 38%;
+}
+
+#bannerImgDiv img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#bannerContentDiv {
+  display: inline-block;
+  width: 59%;
+  text-align: center;
+  padding: 35px 10px;
+  vertical-align: top;
+}
+
+#bannerContentHeading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 0px 0 22px 0;
+}
+
+#bannerContentTxt {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0 95px;
+}
+
+#bannerContentBtn {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #575757;
+  border-radius: 20px;
+  width: 60%;
+  padding: 6px 0;
+  margin-top: 20px;
+  color: #575757;
+}
+
+#bannerContentBtn:hover {
+  color: #fff;
+  background-color: #575757;
+}
+
+#carouserHeadingImgDiv {
+  display: inline-block;
+  width: 80px;
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#carouserHeadingImgDiv img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#carouserHeadingContentDiv {
+  display: inline-block;
+  width: 48%;
+  margin-left: 20px;
+  margin-top: -4px;
+}
+
+#carouserHeadingContentTxt {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 650;
+  margin-bottom: 6px;
+}
+
+#carouserHeadingContentTxt2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+#carouselBottomDiv {
+  border-radius: 0 0 16px 16px;
+  background-color: rgba(250, 234, 222, 0.5);
+}
+
+#carouselBottomDiv p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 15px 20px;
+}
+
+#offerDiv {
+  width: 99%;
+  background-color: #1e1e1e;
+  color: #fff;
+  margin-top: 40px;
+  padding: 0;
+}
+
+#offerContentContainer {
+  display: inline-block;
+  width: 58%;
+  vertical-align: middle;
+  margin-left: 160px;
+}
+
+#offerImgDiv {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+}
+
+#offerImgDiv img {
+  max-width: 350px;
+  margin-top: -6px;
+}
+
+#offerContentHeading {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 650;
+  width: 450px;
+  margin: 10px 0 8px 0;
+}
+
+#offerContentTxt {
+  width: 500px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+#offerEmailInput {
+  width: 370px;
+  margin-top: 24px;
+  margin-right: 16px;
+  height: 40px;
+  max-height: 40px;
+  min-height: 40px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+#offerEmailInput:focus {
+  outline: none;
+}
+
+#offerJoinBtn {
+  padding: 6px 32px;
+  min-height: 35px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 80px;
+  text-transform: none;
+  background-color: transparent;
+}
+
+#offerJoinBtn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1e1e1e;
+}
+
+#bottombannerHeading {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 650;
+  margin-bottom: 35px;
+}
+
+#bannerIconDiv {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+}
+
+#bannerIconDiv img {
+  width: 100%;
+  max-width: 50px;
+}
+
+#bannerTxtDiv {
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+}
+
+#bannerTxtDiv p {
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: -3px;
+  margin-bottom: 0;
+}
+
+/* ######### */
+#discountRateDiv {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+  /* line-height: 80px; */
+  border-radius: 50%;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+
+#discountRateDiv p {
+  margin-bottom: 2px;
+}
+
+#discountRateDiv p:first-child {
+  text-transform: lowercase;
+  font-size: 16px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #d5a184;
+  margin-top: 20px;
+}
+
+#discountRateDiv p:last-child {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+/* ######### */

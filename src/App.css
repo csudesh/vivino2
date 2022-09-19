@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headingOne {
+  font-family: "GraphikWeb", "Verdana", sans-serif;
+  font-size: 35px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0;
+  margin-top: 60px !important;
+}
