@@ -42,7 +42,7 @@ export default function () {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" id="footerUlRow">
             <p
               style={{
                 fontSize: "13px",

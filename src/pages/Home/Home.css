@@ -200,6 +200,7 @@
 #bannerImgDiv img {
   width: 100%;
   max-width: 100%;
+  border-radius: 20px 0 0 20px;
 }
 
 #bannerContentDiv {
@@ -260,7 +261,7 @@
 
 #carouserHeadingContentDiv {
   display: inline-block;
-  width: 48%;
+  width: 630px;
   margin-left: 20px;
   margin-top: -4px;
 }
@@ -430,3 +431,171 @@
   color: #fff;
 }
 /* ######### */
+
+@media screen and (max-width: 1399px) {
+  #offerContentContainer {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #offerContentContainer {
+    margin-left: 50px;
+  }
+
+  #offerImgDiv img {
+    max-width: 310px;
+  }
+
+  #bannerContentDiv {
+    padding: 15px 10px;
+  }
+
+  #bannerContentHeading {
+    font-size: 35px;
+  }
+
+  #bannerContentTxt {
+    font-size: 18px;
+  }
+
+  #bannerContentBtn {
+    font-size: 18px;
+    padding: 4px 0;
+  }
+
+  #bannerIconDiv {
+    vertical-align: top;
+  }
+
+  #bannerIconDiv img {
+    max-width: 40px;
+  }
+
+  #bannerTxtDiv {
+    vertical-align: top;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sectionTwobannertxt {
+    font-size: 18px;
+  }
+
+  #carouserHeadingContentDiv {
+    width: 570px;
+  }
+
+  #carouserHeadingContentTxt2 {
+    font-size: 18px;
+  }
+
+  #carouserHeadingContentTxt {
+    font-size: 36px;
+  }
+
+  #offerImgDiv img {
+    display: none;
+  }
+
+  #offerContentContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #offerContentTxt {
+    margin: 0 auto;
+    padding: 15px 0 10px 0;
+  }
+
+  #offerContentHeading {
+    margin: 0 auto;
+  }
+
+  #offerDiv {
+    padding: 30px 10px 20px 10px;
+  }
+
+  #bannerImgDiv {
+    display: none;
+  }
+
+  #bannerContentDiv {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  #bannerContentBtn {
+    margin-top: 0;
+  }
+
+  #bannerIconDiv img {
+    max-width: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #carouserHeadingContentDiv {
+    width: 80%;
+  }
+
+  #offerEmailInput {
+    margin-bottom: 25px;
+  }
+
+  #bannerContentDiv {
+    width: 100%;
+  }
+
+  #bottombannerHeading {
+    text-align: center;
+  }
+
+  #bannerIconDiv {
+    margin-top: 12px;
+    width: 15%;
+    margin-left: 15px;
+  }
+
+  #bannerTxtDiv {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #offerDiv {
+    margin: 0 auto;
+  }
+
+  #offerContentHeading {
+    width: 100%;
+  }
+
+  #offerContentTxt {
+    width: 100%;
+  }
+
+  #offerEmailInput {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #carouserHeadingContentDiv {
+    width: 70%;
+  }
+
+  #bannerContentTxt {
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #bannerContentTxt {
+    padding: 0 15px;
+  }
+}

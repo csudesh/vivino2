@@ -55,3 +55,58 @@
   max-width: 20px;
   margin-left: 15px;
 }
+
+@media screen and (max-width: 1199px) {
+  #footerLogoDiv1 {
+    width: 55%;
+  }
+
+  #footerLogoDiv2 {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #footerLogoDiv1 {
+    width: 40%;
+  }
+
+  #footerLogoDiv2 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #footerLogoDiv1,
+  #footerLogoDiv2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #footerLogoDiv2 {
+    margin-top: 20px;
+  }
+
+  #footerUlRow {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #footerBottomLeftDiv {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  #footerBottomRightDiv {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+}

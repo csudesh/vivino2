@@ -1,4 +1,5 @@
 import React from "react";
+//import "../../App.css";
 import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -9,6 +10,7 @@ import userProfile from "../../assets/userProfile.png";
 import bannerImg1 from "../../assets/banner1.png";
 import bannerImg2 from "../../assets/banner2.png";
 import bannerCardImg1 from "../../assets/bannerImg1.png";
+import bannerCardImg11 from "../../assets/bannerImg11.jpg";
 import userImg from "../../assets/userImg.jpg";
 import offerImg from "../../assets/offerImg.png";
 import beerIcon from "../../assets/beerIcon.png";
@@ -17,6 +19,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+
+const options = {
+  margin: 10,
+  responsiveClass: true,
+  nav: true,
+  dots: false,
+  autoplay: false,
+  // navText: ["Prev", "Next"],
+  smartSpeed: 1000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    400: {
+      items: 1,
+    },
+    766: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+    1400: {
+      items: 4,
+    },
+  },
+};
 
 export default function Home() {
   return (
@@ -42,14 +71,7 @@ export default function Home() {
 
       <div className="container">
         <div className="row">
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            margin={10}
-            items={4}
-            nav
-            dots={false}
-          >
+          <OwlCarousel className="owl-theme" {...options}>
             <div class="item">
               <div className="carouselCard">
                 <div id="caropuselPaddingDiv">
@@ -234,7 +256,7 @@ export default function Home() {
         <div className="row">
           <div id="bannerContainer1">
             <div id="bannerImgDiv">
-              <img src={bannerCardImg1} alt="" />
+              <img className="img-fluid" src={bannerCardImg11} alt="" />
             </div>
             <div id="bannerContentDiv">
               <p id="bannerContentHeading">Share your love of wine</p>
@@ -270,14 +292,7 @@ export default function Home() {
           </div>
         </div>
         <div className="row">
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            margin={10}
-            items={4}
-            nav
-            dots={false}
-          >
+          <OwlCarousel className="owl-theme" {...options}>
             <div class="item">
               <div className="carouselCard">
                 <div id="caropuselPaddingDiv">
@@ -457,14 +472,7 @@ export default function Home() {
 
       <div className="container" style={{ marginTop: "25px" }}>
         <div className="row">
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            margin={10}
-            items={4}
-            nav
-            dots={false}
-          >
+          <OwlCarousel className="owl-theme" {...options}>
             <div class="item">
               <div className="carouselCard">
                 <div id="caropuselPaddingDiv">
@@ -623,14 +631,7 @@ export default function Home() {
 
       <div className="container" style={{ marginTop: "25px" }}>
         <div className="row">
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            margin={10}
-            items={4}
-            nav
-            dots={false}
-          >
+          <OwlCarousel className="owl-theme" {...options}>
             <div class="item">
               <div className="carouselCard">
                 <div id="caropuselPaddingDiv">
